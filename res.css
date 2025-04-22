@@ -1,0 +1,925 @@
+
+@media (max-width: 729px){
+    
+/* banner part */
+
+
+.banner-main {
+    margin: 100px 0;
+    
+}
+
+.nav-logo{
+   width: 40%;
+}
+
+.banner-content{
+    text-align: center;
+}
+
+.banner-content h1{
+    font-size: 55px;
+    font-weight: 900 ;
+    margin-bottom: 20px;
+}
+
+.banner-content h1 img{
+    width: 35%;
+   
+}
+
+.banner-btn{
+    margin: 40px 0;
+    justify-content: center;
+}
+.banner-content span{
+    color:#8A47F6;
+}
+
+.banner-content p{
+    font-size: 18px;
+    font-weight: 400 ;
+}
+
+/* about part */
+
+.about{
+padding: 50px 0;
+background-color: #dfd9e8;
+}
+
+.about h6{
+    font-size: 18px;
+    font-weight: 400;
+    margin: 30px 0 0px 0;
+}
+
+.about  h2{
+    font-size: 40px;
+    font-weight: 900 ;
+    margin: 30px 0 10px 0;
+}
+.about span{
+    color:#8A47F6;
+}
+
+.about p{
+    font-size: 15px;
+    font-weight: 400;
+    padding: 17px 0;
+}
+
+.about-btn{
+    margin-top: 15px;
+}
+
+
+ /* Our Portfolio  */
+
+ .portfolio{
+    margin-top: 40px;
+ }
+
+ .header-content{
+    text-align: center;
+ }
+
+ .header-content  h4{
+    font-size: 40px;
+    font-weight: 900 ;
+   ;
+ 
+}
+.header-content span{
+    color:#8A47F6;
+}
+
+
+.portfolio-link {
+    margin: 40px 0;
+   
+}
+.portfolio-link ul{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #dfd9e8;
+    padding: 20px 14px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 5px 15px rgba(0,0,0,.1);
+    border-radius: 5px;
+   
+    
+}
+
+.portfolio-link ul li{
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* price part */
+
+.price{
+    margin-top: 100px;
+    text-align: center;
+
+}
+
+.card{
+    text-align: center;
+    box-shadow: 0px 5px 15px rgba(0,0,0,.1);
+}
+
+.card:hover{
+    background-color: #333333;
+    color: white;
+    transition: all linear .3s;
+    cursor: pointer;
+}
+
+.card-title{
+   font-size: 24px;
+   font-weight: 900;
+   margin: 20px 0;
+}
+
+.card-content-main p{
+    font-size: 18px;
+    font-weight: 400;
+    
+    margin: 20px 0;
+}
+
+.card-body h1{
+    font-size: 48px;
+    font-weight: 900;
+   
+    padding: 9px 0 12px 0;
+}
+
+.card-body a{
+    font-size: 16px;
+    color: white;
+    padding: 10px 20px;
+    background-color: #FE8C45;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    border: none;
+}
+
+.card-body a:hover{
+    background-color: white;
+    color: black;
+    transition: all linear .3s;
+    cursor: pointer;
+}
+
+
+
+
+/* Testimonials part */
+
+.testimonials{
+    margin-top: 70px;
+    padding: 50px 0;
+    background-color: #dfd9e8;
+}
+
+
+.testimonials-content{
+    text-align: center;
+}
+    .testimonials-content h6{
+        font-size: 20px;
+        font-weight: 400;
+        margin: 10px 0;
+    }
+    
+    .testimonials-content h2{
+        font-size: 35px;
+        font-weight: 900 ;
+        margin: 20px 0;
+    }
+    
+    
+    .testimonials-content p{
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 28px;
+       padding: 20px 0 10px 0;
+    }
+
+    .button-img{
+        margin: 40px 0;
+        display: flex;
+        align-items: center;
+        padding: 0px 20px 0 6px;
+        background-color: #8A47F6;
+        border-radius: 50px;
+       gap: 20px;
+      width: fit-content;
+    }
+
+    .button-img a{
+        color: black;
+        font-size: 18px;
+        width: 400;
+    }
+
+   .main-img-btn{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 20px;
+   }
+
+   .circle{
+    display: flex;
+    gap: 10px;
+   }
+
+   .circle i{
+   width: 40px;
+   height: 40px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    border-radius: 100%;
+    border: 1px solid #333333;
+    transition: all linear .3s;
+
+   }
+
+   .circle i:hover{
+    background-color: #8A47F6; 
+    border: 1px solid #8A47F6;
+    color: white;
+    transition: all linear .3s;
+   }
+
+  /* instagram part html start */
+
+.instagram{
+    margin-top: 120px;
+}
+
+.instagram-common-content{
+    display: flex;
+    
+    align-items: center;
+}
+.instagram-common-content h4{
+   padding-top: 10px;
+    font-size: 40px;
+    font-weight: 800;
+   
+   
+
+}
+
+.instagram-common-icon a{
+    visibility: hidden;
+    font-family: "Quicksand", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    float: right;
+    color: black;
+    padding: 6px 35px;
+    background-color:#FE8C45;
+    border-radius: 92px;
+    color: white;
+    margin-top: 0px;
+    transition: all linear .3s;
+    margin-bottom: 10px;
+}
+
+.instagram-common-icon a:hover{
+    background-color: #333333;
+    color: white;
+    transition: all linear .3s;
+}
+
+.img-main{
+    margin: 10px 0;
+}
+
+.img-main img{
+    margin: 10px 0;
+}
+
+
+ /* instagram html end  */
+
+
+ /* question part html start  */
+.question{
+    margin-top: 100px;
+}
+
+.question-content-main h4{
+    font-size: 48px;
+    width: 900;
+    margin-bottom: 30px;
+
+}
+
+.question-content-main p{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 50px;
+
+}
+
+.address-content{
+    padding: 40px 24px;
+    background-color: #EDE3FE;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.addont-fress-content h4{
+    
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.address-content h6{
+    margin-top: 15px;
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 25px;
+   
+   
+   
+}
+
+
+
+
+.address-icon a{
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    color: 14px;
+    background-color:#8A47F6;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin-top: 10px;
+    transition: all linear .3s;
+    
+}
+
+.address-icon  :hover{
+    background-color: #FE8C45;
+    transition: all linear .3s;
+}
+
+.address-icon{
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+
+}
+
+.content-add{
+    text-align: center;
+}
+
+.content-add h6{
+    font-size: 25px;
+    font-weight: 600;
+   
+ 
+}
+
+.content-add p{
+    font-size: 24px;
+    font-weight: 400;
+ 
+}
+
+ /* question part html end  */
+
+/* footer part css start  */
+footer{
+    padding: 20px 0;
+    margin-top: 70px;
+    background-color: black;
+    color: white;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-content p{
+   
+    font-size: 13px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    text-decoration: underline;
+
+}
+
+
+
+.footer-logo img{
+ width: 60%;
+ margin-top: 10px;
+}
+
+
+}  
+.footer-icon a{
+    margin-top: 20px;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    color: black;
+    display: flex;
+    background-color:#FFFFFF;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+      float: right;
+  
+/* footer part css end */
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px){
+
+    /* banner part */
+
+
+.banner-main {
+    margin: 100px 0;
+    
+}
+
+.my-nav{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.nav-logo{
+   width: 50%;
+}
+
+
+
+.banner-content h1{
+    font-size: 41px;
+    font-weight: 900 ;
+    margin-bottom: 20px;
+}
+
+.banner-content h1 img{
+    width: 39%;
+   
+}
+
+.banner-btn{
+    margin: 30px 0;
+    
+}
+.banner-content span{
+    color:#8A47F6;
+}
+
+.banner-content p{
+    font-size: 20px;
+    font-weight: 400 ;
+}
+
+/* about part */
+
+.about{
+padding: 50px 0;
+background-color: #dfd9e8;
+}
+
+.about h6{
+    font-size: 13px;
+    font-weight: 400;
+    margin: 10px 0 0px 0;
+}
+
+.about  h2{
+    font-size: 25px;
+    font-weight: 900 ;
+    margin: 30px 0 10px 0;
+}
+.about span{
+    color:#8A47F6;
+}
+
+.about p{
+    font-size: 8px;
+    font-weight: 400;
+    padding: 6px 0;
+}
+
+.about-btn{
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+
+ /* Our Portfolio  */
+
+ .portfolio{
+    margin-top: 40px;
+ }
+
+ .header-content{
+    text-align: center;
+ }
+
+ .header-content  h4{
+    font-size: 40px;
+    font-weight: 900 ;
+   ;
+ 
+}
+.header-content span{
+    color:#8A47F6;
+}
+
+
+.portfolio-link {
+    margin: 40px 0;
+   
+}
+.portfolio-link ul{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #dfd9e8;
+    padding: 20px 14px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 5px 15px rgba(0,0,0,.1);
+    border-radius: 5px;
+   
+    
+}
+
+.portfolio-link ul li{
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* price part */
+
+main-cards{
+    display: flex;
+    width: 100%;
+    width: 100%;
+   
+   
+}
+
+.price{
+    margin-top: 100px;
+}
+
+.card{
+    text-align: center;
+    box-shadow: 0px 5px 15px rgba(0,0,0,.1);
+    margin:50px ;
+   
+    
+}
+
+.card:hover{
+    background-color: #333333;
+    color: white;
+    transition: all linear .3s;
+    cursor: pointer;
+}
+
+.card-title{
+   font-size: 24px;
+   font-weight: 900;
+   margin: 20px 0;
+}
+
+.card-content-main p{
+    font-size: 18px;
+    font-weight: 400;
+    
+    margin: 20px 0;
+}
+
+.card-body h1{
+    font-size: 48px;
+    font-weight: 900;
+   
+    padding: 9px 0 12px 0;
+}
+
+.card-body a{
+    font-size: 16px;
+    color: white;
+    padding: 10px 20px;
+    background-color: #FE8C45;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    border: none;
+}
+
+.card-body a:hover{
+    background-color: white;
+    color: black;
+    transition: all linear .3s;
+    cursor: pointer;
+}
+
+
+/* Testimonials part */
+
+.testimonials{
+    margin-top: 80px;
+    padding: 50px 0;
+    background-color: #dfd9e8;
+}
+
+
+
+    .testimonials-content h6{
+        font-size: 18px;
+        font-weight: 400;
+        margin: 10px 0;
+    }
+    
+    .testimonials-content h2{
+        font-size: 30px;
+        font-weight: 800 ;
+        margin: 20px 0;
+    }
+    
+    
+    .testimonials-content p{
+        font-size: 12px;
+        font-weight: 400;
+       
+       padding: 15px 0 7px 0;
+    }
+
+    .button-img{
+        margin: 20px 0;
+        display: flex;
+        align-items: center;
+        padding: 0px 20px 0 6px;
+        background-color: #8A47F6;
+        border-radius: 50px;
+       gap: 20px;
+      width: fit-content;
+    }
+
+    .button-img a{
+        color: black;
+        font-size: 18px;
+        width: 400;
+    }
+
+   .main-img-btn{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 20px;
+   }
+
+   .circle{
+    display: flex;
+    gap: 10px;
+   }
+
+   .circle i{
+   width: 40px;
+   height: 40px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    border-radius: 100%;
+    border: 1px solid #333333;
+    transition: all linear .3s;
+
+   }
+
+   .circle i:hover{
+    background-color: #8A47F6; 
+    border: 1px solid #8A47F6;
+    color: white;
+    transition: all linear .3s;
+   }
+
+  /* instagram part html start */
+
+.instagram{
+    margin-top: 120px;
+}
+
+.instagram-common-content{
+    display: flex;
+    
+    align-items: center;
+}
+.instagram-common-content h4{
+   padding-top: 10px;
+    font-size: 40px;
+    font-weight: 800;
+   
+   
+
+}
+
+.instagram-common-icon a{
+    visibility: hidden;
+    font-family: "Quicksand", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    float: right;
+    color: black;
+    padding: 6px 35px;
+    background-color:#FE8C45;
+    border-radius: 92px;
+    color: white;
+    margin-top: 0px;
+    transition: all linear .3s;
+    margin-bottom: 10px;
+}
+
+.instagram-common-icon a:hover{
+    background-color: #333333;
+    color: white;
+    transition: all linear .3s;
+}
+
+.img-main{
+    margin: 10px 0;
+}
+
+.img-main img{
+    margin: 10px 0;
+}
+
+
+ /* instagram html end  */
+
+
+ /* question part html start  */
+.question{
+    margin-top: 90px;
+}
+
+.question-content-main h4{
+    font-size: 35px;
+    width: 700;
+    margin-bottom: 30px;
+
+}
+
+.question-content-main p{
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 50px;
+
+}
+
+.address-content{
+    padding: 40px 24px;
+    background-color: #EDE3FE;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.addont-fress-content h4{
+    
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.address-content h6{
+    margin-top: 14px;
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 25px;
+   
+   
+   
+}
+
+
+
+.address-icon a{
+    height: 32px;
+    width: 32px;
+    line-height: 35px;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    color: 14px;
+    background-color:#8A47F6;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin-top: 15px;
+    font-size: 10px;
+    
+
+}
+
+.address-icon{
+  display: flex;
+  padding: 15px 0;
+
+}
+
+
+
+.content-add h6{
+    font-size: 14px;
+    font-weight: 600;
+   
+ 
+}
+
+.content-add p{
+    font-size: 13px;
+    font-weight: 400;
+    
+ 
+}
+
+ /* question part html end  */
+
+/* footer part css start  */
+footer{
+    padding: 20px 0;
+    margin-top: 70px;
+    background-color: black;
+    color: white;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-content p{
+   
+    font-size: 13px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    text-decoration: underline;
+
+}
+
+
+
+.footer-logo img{
+ width: 60%;
+ margin-top: 10px;
+}
+
+
+}  
+.footer-icon a{
+    margin-top: 20px;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    color: black;
+    display: flex;
+    background-color:#FFFFFF;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+      float: right;
+  
+/* footer part css end */
+}
+
+

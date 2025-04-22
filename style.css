@@ -1,0 +1,472 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    max-width: 1280px;
+
+}
+a,ul.li.ol{
+    list-style: none;
+    text-decoration: none;
+}
+p,li{
+    font-family: "Open Sans", sans-serif;
+}
+
+/* banner part */
+
+
+.banner-main {
+    margin: 130px 0;
+    
+}
+
+
+
+.banner-content h1{
+    font-size: 74px;
+    font-weight: 900 ;
+}
+.banner-content span{
+    color:#8A47F6;
+}
+
+.banner-content p{
+    font-size: 18px;
+    font-weight: 400 ;
+}
+
+.test-img{
+    margin: 50px 0;
+}
+
+/* about part */
+
+.about{
+    margin-top: 140px;
+padding: 50px 0;
+background-color: #dfd9e8;
+}
+
+.about h6{
+    font-size: 14px;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+.about  h2{
+    font-size: 48px;
+    font-weight: 900 ;
+    margin: 10px 0;
+}
+.about span{
+    color:#8A47F6;
+}
+
+.about p{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+ /* Our Portfolio  */
+
+ .portfolio{
+    margin-top: 50px;
+ }
+
+ .header-content{
+    text-align: center;
+ }
+
+ .header-content  h4{
+    font-size: 48px;
+    font-weight: 900 ;
+   ;
+ 
+}
+.header-content span{
+    color:#8A47F6;
+}
+
+
+.portfolio-link {
+    margin: 80px 0;
+   
+}
+.portfolio-link ul{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #dfd9e8;
+    padding: 20px 14px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 5px 15px rgba(0,0,0,.1);
+    border-radius: 5px;
+   
+    
+}
+
+.portfolio-link ul li{
+  font-size: 18px;
+  font-weight: 400;
+}
+
+/* price part */
+
+.main-cards{
+    display: flex;
+   flex-wrap: wrap;
+}
+
+.price{
+    margin-top: 100px;
+}
+
+.card{
+    text-align: center;
+    box-shadow: 0px 5px 15px rgba(0,0,0,.1);
+}
+
+.card:hover{
+    background-color: #333333;
+    color: white;
+    transition: all linear .3s;
+    cursor: pointer;
+}
+
+.card-title{
+   font-size: 24px;
+   font-weight: 900;
+   margin: 20px 0;
+}
+
+.card-content-main p{
+    font-size: 18px;
+    font-weight: 400;
+    
+    margin: 20px 0;
+}
+
+.card-body h1{
+    font-size: 48px;
+    font-weight: 900;
+   
+    padding: 9px 0 12px 0;
+}
+
+.card-body a{
+    font-size: 16px;
+    color: white;
+    padding: 10px 20px;
+    background-color: #FE8C45;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    border: none;
+}
+
+.card-body a:hover{
+    background-color: white;
+    color: black;
+    transition: all linear .3s;
+    cursor: pointer;
+}
+
+/* Testimonials part */
+
+.testimonials{
+    margin-top: 100px;
+    padding: 80px 0;
+    background-color: #dfd9e8;
+}
+
+
+    
+    .testimonials-content h6{
+        font-size: 18px;
+        font-weight: 400;
+        margin: 10px 0;
+    }
+    
+    .testimonials-content h2{
+        font-size: 48px;
+        font-weight: 900 ;
+        margin: 20px 0;
+    }
+    
+    
+    .testimonials-content p{
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 25px;
+       padding: 20px 0 50px 0;
+    }
+
+    .button-img{
+        margin-top: 300px 0;
+        display: flex;
+        align-items: center;
+        padding: 0px 20px 0 6px;
+        background-color: #8A47F6;
+        border-radius: 50px;
+       gap: 20px;
+      width: fit-content;
+    }
+
+    .button-img a{
+        color: black;
+        font-size: 22px;
+        width: 400;
+    }
+
+   .main-img-btn{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 20px;
+   }
+
+   .circle{
+    display: flex;
+    gap: 10px;
+   }
+
+   .circle i{
+   width: 45px;
+   height: 45px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    border-radius: 100%;
+    border: 1px solid #333333;
+    transition: all linear .3s;
+
+   }
+
+   .circle i:hover{
+    background-color: #8A47F6; 
+    border: 1px solid #8A47F6;
+    color: white;
+    transition: all linear .3s;
+   }
+
+  /* instagram part html start */
+
+.instagram{
+    margin-top: 137px;
+}
+.instagram-common-content h4{
+    font-size: 48px;
+    font-weight: 900;
+    padding-bottom: 20px;
+    
+
+}
+
+.instagram-common-icon a{
+    font-family: "Quicksand", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    float: right;
+    color: black;
+    padding: 6px 35px;
+    background-color:#FE8C45;
+    border-radius: 92px;
+    color: white;
+    margin-top: 8px;
+    transition: all linear .3s;
+}
+
+.instagram-common-icon a:hover{
+    background-color: #333333;
+    color: white;
+    transition: all linear .3s;
+}
+
+.img-main{
+    margin: 10px 0;
+}
+
+.img-main img{
+    margin: 10px 0;
+}
+
+
+ /* instagram html end  */
+
+
+ /* question part html start  */
+.question{
+    margin-top: 100px;
+}
+
+
+.question-content-main{
+    margin-top: 60px;
+}
+.question-content-main h4{
+    font-size: 48px;
+    width: 900;
+
+}
+
+.question-content-main p{
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+.address-content{
+    padding: 30px 24px;
+    background-color: #EDE3FE;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.address-content h4{
+    font-family: "Quicksand", sans-serif;
+    font-size: 34px;
+    font-weight: 600;
+}
+
+.address-content h6{
+    font-family: "Quicksand", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 25px;
+   
+   
+   
+}
+
+
+
+
+.address-icon a{
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    background-color:#8A47F6;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin-top: 16px;
+    
+   
+   
+
+}
+
+
+
+.content-add h6{
+    
+    font-size: 22px;
+    font-weight: 500;
+ 
+   
+}
+
+.content-add p{
+   
+    font-size: 15px;
+    font-weight: 500;
+ 
+   
+}
+ /* question part html end  */
+
+/* footer part css start  */
+footer{
+    padding: 20px 0;
+    margin-top: 115px;
+    background-color: black;
+    color: white;
+}
+
+.footer-content{
+    display: flex;
+    float: right;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-content p{
+    font-family: "Quicksand", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 10px 8px;
+    text-decoration: underline;
+    
+
+}
+
+
+ /* .footer-icon{
+    float: right; 
+}  */
+.footer-icon a{
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    color: black;
+    display: flex;
+    background-color:#FFFFFF;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+   float: right;
+   margin: 0 4px;
+   transition: all linear .3s;
+}
+
+.footer-icon a:hover{
+   background-color: #FE8C45;
+   color: white;
+   transition: all linear .3s;
+}
+/* footer part css end */
+
+
+.slide-img-1 {
+    position: absolute;
+    top: 2px;
+    left: -125px;
+    z-index: -1;
+}
+
+.slide-img-2 {
+    position: absolute;
+    top: 92px;
+    left: -3px;
+    z-index: -1;
+}
+
+
+.slide-img-3 {
+    position: absolute;
+    top: 1112px;
+    left: 800px;
+    z-index: -1;
+}
+
+.slide-img-4 {
+    position: absolute;
+    top: 2254px;
+    left: -104px;
+    z-index: -1;
+}
